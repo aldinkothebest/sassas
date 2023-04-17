@@ -1,0 +1,7 @@
+local player = game.Players.LocalPlayer
+
+if player.Name == "ThuskyLockingAlert" then
+    print("Whitelisted")
+    else
+        player:Kick("Not Whitelisted") 
+        end
